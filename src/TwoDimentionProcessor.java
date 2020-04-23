@@ -10,7 +10,7 @@ public class TwoDimentionProcessor implements Chain
     }
 
     @Override
-    public void process(Dimention request)
+    public void process(Dimension request)
     {
         if (request.getCoordinate().length == 2) {
                 System.out.println("Two Dimention :" + Arrays.toString(request.getCoordinate()));

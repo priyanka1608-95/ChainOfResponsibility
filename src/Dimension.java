@@ -1,22 +1,22 @@
-public class Dimention
+public class Dimension
 {
     private int[] coordinate;
-    Dimention()
+    Dimension()
     {
         this.coordinate=null;
     }
 
-    Dimention(int x)
+    Dimension(int x)
     {
         this.coordinate=new int[] {x};
     }
 
-    Dimention(int x,int y)
+    Dimension(int x, int y)
     {
         this.coordinate=new int[] {x,y};
     }
 
-    Dimention(int x,int y,int z)
+    Dimension(int x, int y, int z)
     {
         this.coordinate=new int[] {x,y,z};
     }

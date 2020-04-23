@@ -10,7 +10,7 @@ public class ThreeDimentionProcessor implements Chain
     }
 
     @Override
-    public void process(Dimention request)
+    public void process(Dimension request)
     {
         if (request.getCoordinate().length == 3) {
             System.out.println("Three Dimention :" + Arrays.toString(request.getCoordinate()));

@@ -1,5 +1,5 @@
 public interface Chain
 {
-    public abstract void setNext(Chain nextInChain);
-    public abstract void process(Dimention request);
+     void setNext(Chain nextInChain);
+     void process(Dimension request);
 }

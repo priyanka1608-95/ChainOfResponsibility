@@ -8,11 +8,11 @@ public class Client
         Chain c3=new ThreeDimentionProcessor();
 
         c1.setNext(c2);
-        c2.setNext(c3);
+       c2.setNext(c3);
 
-        c1.process(new Dimention(5));
-        c1.process(new Dimention(10,20));
-        c1.process(new Dimention(50,60,70));
+        c1.process(new Dimension(5));
+        c1.process(new Dimension(10,20));
+        c1.process(new Dimension(50,60,70));
 
 
     }

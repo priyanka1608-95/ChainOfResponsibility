@@ -10,7 +10,7 @@ public class OneDimentionProcessor implements Chain
     }
 
     @Override
-    public void process(Dimention request)
+    public void process(Dimension request)
     {
         if(request.getCoordinate().length==1)
         {
